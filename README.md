@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/32707951/README.md)
-# NIST-CSF-Portfolio# NIST CSF 2.0 Portfolio — MeridianPay Financial Services
+Portfolio# NIST CSF 2.0 Portfolio — MeridianPay Financial Services
 
 A GRC portfolio applying the **NIST Cybersecurity Framework (CSF) 2.0** to a fictional cross-border payments fintech, MeridianPay Financial Services. Built to demonstrate practical GRC skills: framework interpretation, gap/maturity assessment, cross-framework mapping, and third-party risk management.
 
