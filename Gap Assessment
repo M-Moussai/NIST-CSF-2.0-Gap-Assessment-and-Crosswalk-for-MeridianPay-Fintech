@@ -1,1 +1,46 @@
 
+# Project 01 — NIST CSF 2.0 Gap / Maturity Assessment
+
+**Company:** MeridianPay Financial Services (fictional) — see [`../company-profile.md`](../company-profile.md)
+**Deliverable:** [`MeridianPay_NIST_CSF_Gap_Assessment.xlsx`](./MeridianPay_NIST_CSF_Gap_Assessment.xlsx)
+
+## Objective
+
+Assess MeridianPay's cybersecurity program against all six Functions and 106 Subcategories of NIST CSF 2.0, to prepare for a US banking partner's third-party due diligence review and an upcoming cyber insurance renewal.
+
+## Methodology
+
+1. Used NIST's official **CSF 2.0 Implementation Examples** (Feb 2024) as the reference standard for each subcategory.
+2. Assessed MeridianPay's current-state practices (defined in the company profile) against each subcategory, primarily at the Category level for a rapid maturity assessment.
+3. Scored each subcategory 0–4:
+
+   | Score | Meaning |
+   |---|---|
+   | 0 | Not Performed |
+   | 1 | Ad Hoc / Reactive |
+   | 2 | Defined but Inconsistent |
+   | 3 | Managed & Measured |
+   | 4 | Optimized |
+
+4. Assigned a priority (High/Medium/Low) and a specific remediation recommendation to every subcategory.
+
+## Key findings
+
+- **Overall maturity: 1.08 / 4** — an early-stage, largely informal security program.
+- **Strongest Function: PROTECT (1.86/4)** — driven by AWS-native encryption and MFA on production accounts.
+- **Weakest Function: DETECT (0.45/4)** — no centralized logging, monitoring, or incident-declaration criteria exist.
+- **70 of 106 subcategories (66%) are flagged High priority**, concentrated in Govern (risk strategy, policy, supply chain) and Detect.
+
+## Top 5 recommendations
+
+1. Stand up a centralized SIEM/log monitoring capability (DE.CM) — currently the single biggest gap.
+2. Formalize an incident response plan with defined roles, triage, and escalation (RS.MA).
+3. Establish a risk management strategy and risk register, including a documented risk appetite (GV.RM).
+4. Build a vendor risk management program covering onboarding due diligence, contractual security requirements, and ongoing monitoring (GV.SC) — see Project 03.
+5. Launch a mandatory security awareness training program (PR.AT).
+
+## How to use this workbook
+
+- **Gap Assessment** tab — full subcategory-by-subcategory detail
+- **Maturity Summary** tab — Function and Category roll-ups with a maturity chart
+- **Instructions** tab — scoring legend and source notes
