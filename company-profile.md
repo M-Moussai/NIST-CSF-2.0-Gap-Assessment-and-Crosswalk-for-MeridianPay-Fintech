@@ -2,7 +2,6 @@
 
 # Fictional Company Profile — MeridianPay Financial Services
 
-> Reference document used across all NIST CSF 2.0 portfolio projects (Gap Assessment, Framework Crosswalk, Vendor Risk Assessment). Keep this file at the root of the GitHub repo so every project links back to a consistent scenario.
 
 ## 1. Company Overview
 - **Name:** MeridianPay Financial Services
