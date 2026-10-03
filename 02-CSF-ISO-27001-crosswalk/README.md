@@ -5,7 +5,7 @@
 
 ## Objective
 
-Map all 22 NIST CSF 2.0 Categories to their corresponding ISO/IEC 27001:2022 Annex A controls (and, where relevant, core management-system clauses), so MeridianPay can reuse its CSF 2.0 gap assessment (Project 01) as an early input toward a future ISO 27001 Statement of Applicability — without assessing the same controls twice.
+I mapped all 22 NIST CSF 2.0 Categories to their corresponding ISO/IEC 27001:2022 Annex A controls (and, where relevant, core management-system clauses), so MeridianPay can reuse its CSF 2.0 gap assessment (Project 01) as an early input toward a future ISO 27001 Statement of Applicability — without assessing the same controls twice.
 
 ## Methodology
 
