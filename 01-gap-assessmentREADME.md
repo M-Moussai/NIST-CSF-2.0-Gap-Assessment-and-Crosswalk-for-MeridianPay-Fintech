@@ -23,6 +23,18 @@ Assess MeridianPay's cybersecurity program against all six Functions and 106 Sub
 
 4. Assigned a priority (High/Medium/Low) and a specific remediation recommendation to every subcategory.
 
+## Results
+
+![Average maturity score by function](./gap-assessment-maturity-chart.png)
+
+![Maturity summary tables by function and category](./gap-assessment-summary-tables.png)
+
+### Sample of the detailed assessment
+
+![Sample rows from the gap assessment](./gap-assessment-sample-rows.png)
+
+*Full detail for all 106 subcategories is in [`MeridianPay_NIST_CSF_Gap_Assessment.xlsx`](./MeridianPay_NIST_CSF_Gap_Assessment.xlsx).*
+
 ## Key findings
 
 - **Overall maturity: 1.08 / 4** — an early-stage, largely informal security program.
